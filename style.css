@@ -1,0 +1,70 @@
+body{ 
+    background-color: yellow; 
+    margin: 0; 
+    height: 100vh; 
+} 
+ 
+header{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+    background-color: darkcyan; 
+    height: 70px; 
+    width: 100%; 
+} 
+
+nav{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 10px; 
+} 
+
+main{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: auto; 
+} 
+
+#true-main{ 
+    display: flex; 
+    align-items: self-end; 
+    margin: 90px 0 90px 0 ; 
+    background-color: red; 
+    width: 800px; 
+    height: 400px; 
+} 
+
+#cadastro{ 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+} 
+
+.white{ 
+    background-color: white; 
+} 
+
+.light-blue{ 
+    background-color: lightblue; 
+    padding: 10px; 
+} 
+
+.light-blue2{ 
+    background-color: lightblue; 
+    width: 30%; 
+    height: 60px; 
+} 
+
+#orange{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    height: 100px; 
+    width: 100%; 
+    margin: 0 0 5% 0; 
+    background-color: orange;     
+} 
