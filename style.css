@@ -1,24 +1,28 @@
 body{ 
-    background-color: yellow; 
+    background-color: #ffffff; 
     margin: 0; 
     height: 100vh; 
 } 
  
 header{ 
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
     display: flex; 
     justify-content: space-between; 
-    align-items: center; 
+    align-items: center;
     padding: 10px; 
-    background-color: darkcyan; 
-    height: 70px; 
-    width: 100%; 
+    background-color: darkcyan;
+    height: 70px;
+    width: 100%;
 } 
 
-nav{ 
+nav{
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    gap: 10px; 
+    gap: 15px; 
 } 
 
 main{ 
@@ -27,6 +31,23 @@ main{
     align-items: center; 
     padding: auto; 
 } 
+
+a, .white{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    min-width: fit-content;
+    border-bottom: 1.4px solid white;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+
+}
+
+a:hover, .white:hover{
+    background-color: rgb(255, 255, 255);
+    color: darkcyan;
+}
 
 #true-main{ 
     display: flex; 
@@ -38,18 +59,9 @@ main{
 } 
 
 #cadastro{ 
-    display: flex; 
-    justify-content: space-between; 
+    display: flex;
+    justify-content: right;
     gap: 10px; 
-} 
-
-.white{ 
-    background-color: white; 
-} 
-
-.light-blue{ 
-    background-color: lightblue; 
-    padding: 10px; 
 } 
 
 .light-blue2{ 
@@ -68,3 +80,11 @@ main{
     margin: 0 0 5% 0; 
     background-color: orange;     
 } 
+
+#nike-logo{
+    height: 80px;
+}
+
+#logo-container, #cadastro{
+    width: 180px;
+}
