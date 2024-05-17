@@ -68,31 +68,24 @@ main{
     margin: 25px;
 } 
 
+.shoes-img{
+    background-size: cover;
+    width: 600px; 
+    height: 600px;
+    margin: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 #img-1{ 
     background-image: url(img/the\ right\ one1.webp);
-    background-size: cover;
-    background-position-y: center;
-    width: 800px; 
-    height: 400px;
-    margin: 3% 0  3% 0 ; 
 } 
 
 #img-2{ 
     background-image: url(img/tenis_nike_air_max_tw_branco_dq3984_102_7731_variacao_45023_2_944830d2aca74a56b35cc227d2064d33.webp);
-    background-size: cover;
-    background-position-y: center;
-    width: 800px; 
-    height: 400px;
-    margin:  3% 0  3% 0 ; 
 }
 
 #img-3{ 
     background-image: url(img/whatsapp-image-2024-01-03-at-12-32-19--1--wpdzmu8hao.webp);
-    background-size: cover;
-    background-position-y: center;
-    width: 800px; 
-    height: 750px;
-    margin:  3% 0  3% 0 ; 
 } 
 
 footer{
@@ -153,11 +146,11 @@ h1{
     letter-spacing: 15px;
 }
 
-h3{
+h2{
     font-family: "Kanit", sans-serif;
-    font-weight: 500;
+    font-weight: 550;
     font-style: normal;
-    font-size: large;
+    font-size: x-large;
     letter-spacing: 5px;
     margin: 10px;
 }
