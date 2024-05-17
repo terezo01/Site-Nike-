@@ -72,7 +72,26 @@ main{
     display: flex;
     justify-content: center;
     padding: 40px;
-    gap: 50px;
+    gap: 38px;
+}
+
+#informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#alert{
+    color: red;
+    font-weight: 100;
+}
+
+#sell-title{
+    font-family: "Kanit", sans-serif;
+    font-weight: 350;
+    font-size: x-large;
+    letter-spacing: 0;
+    margin: 0;
 }
 
 #sell-subtitle{
@@ -145,11 +164,64 @@ main{
     'opsz' 40
 }
 
+#sizes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px
+}
+
+.size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    border-radius: 10px;
+    border: solid 1px rgba(102, 102, 102, 0.507);
+    transition: all 0.5s ease;
+}
+
+.size:hover{
+    border: solid 1px black;
+}
+
+.size:active{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.527);
+}
+
+#buy-btns{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 250;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+    gap: 20px;
+}
+
+.buy-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 350px;
+    border-radius: 35px;
+    border: solid 0.5px rgba(0, 0, 0, 0.288);
+}
+
+#cart{
+    background-color: black;
+    color: white;
+}
 
 #shoes{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    gap: 35px;
 }
 
 .shoes-img{
@@ -162,25 +234,6 @@ main{
 
 .shoes-img:hover{
     scale: 1.1;
-}
-
-#informations{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-#alert{
-    color: red;
-    font-weight: 100;
-}
-
-#sell-title{
-    font-family: "Kanit", sans-serif;
-    font-weight: 350;
-    font-size: x-large;
-    letter-spacing: 0;
-    margin: 0;
 }
 
 #img-1{ 
@@ -246,8 +299,8 @@ footer{
 .media{
     background-color: #ffffff;   
     border-radius: 100%;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     margin: 0 5px 0 0 ;
 }
 
@@ -267,10 +320,6 @@ h2{
     font-size: x-large;
     letter-spacing: 5px;
     margin: 10px;
-}
-
-h4{
-
 }
 
 h5{
