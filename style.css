@@ -47,6 +47,7 @@ nav{
 
 #nike-logo{
     height: 80px;
+    width: auto;
 }
 
 #logo-container, #cadastro{
@@ -82,37 +83,50 @@ footer{
     background-color: darkcyan;
     color: #ffffff;
     height: fit-content;
-    padding: 30px 0 30px 0;
+    padding: 40px 0 40px 0;
     width: 100%;
 }
 
 #footer-1{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 15% 1% 15%;
+}
+
+#footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 15% 0 15% ;
+    gap: 70px;
+}
+
+#footer-2-1{
+    display: flex;
+    gap: 25px;
+}
+
+#footer-2-2{
+    text-align: end;
 }
 
 #footer-line{
     border: 0;
     height: 1px;
+    width: 70%;
     background-color: rgba(255, 255, 255, 0.493);
-    margin: 35px 20px;
+    margin: 0 15% 0 15%;
+
 }
 
-img{
+.media{
+    background-color: #ffffff;   
+    border-radius: 100%;
     height: 40px;
     width: 40px;
     margin: 0 5px 0 0 ;
 }
-
-/*
-a.media{
-    background-color: #ffffff;
-    border-radius: 100%;
-    height: 40px;
-    width: 40px;
-}
-*/
 
 h1{
     font-family: "Kanit", sans-serif;
@@ -139,4 +153,31 @@ h4{
 
 h5{
     font-weight: 200;
+}
+
+h6{
+    font-weight: 150;
+}
+
+::selection{
+    background-color: white;
+    color: darkcyan;
+}
+
+::-webkit-scrollbar{
+    width: auto;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: darkcyan;
+    border: 0.5px solid black;
+}
+
+::-webkit-scrollbar-thumb:active{
+    background-color: rgb(0, 192, 192);
 }
