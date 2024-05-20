@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Branco */
+}
+
+.container {
+    width: 100%;
+    margin: 10% 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(0, 139, 139); /* Darkcyan */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+    color: #ffffff; /* Branco */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-box input[type="text"]:active, .login-box input[type="password"]:active {
+    border: none;
+}
+
+.login-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #000000; /* Preto */
+    color: #ffffff; /* Branco */
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #333333; /* Preto mais escuro */
+}

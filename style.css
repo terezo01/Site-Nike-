@@ -175,7 +175,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 80px;
+    width: 86px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -259,7 +259,7 @@ footer{
     background-color: darkcyan;
     color: #ffffff;
     height: fit-content;
-    padding: 40px 0 40px 0;
+    padding: 4% 0 4% 0;
     width: 100%;
 }
 
@@ -275,7 +275,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin: 1% 15% 0 15% ;
-    gap: 70px;
+    gap: 7%;
 }
 
 #footer-2-1{
@@ -291,7 +291,7 @@ footer{
     border: 0;
     height: 1px;
     width: 70%;
-    background-color: rgba(255, 255, 255, 0.493);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 15% 0 15%;
 
 }
